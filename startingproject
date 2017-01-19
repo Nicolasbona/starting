@@ -1,7 +1,7 @@
 
 public class Rueda {
 
-	private int radio;
+	private float radio;
 	private String color;
 	private String material;
 
@@ -27,15 +27,16 @@ public class Rueda {
 		this.material = material;
 	}
 
-	public int getRadio() {
+	public float getRadio() {
 
 		return radio;
 	}
 
-	public void setRadio(int radio) {
+	public void setRadio(float radio) {
 		this.radio = radio;
 	}
 	public String toString (){
 		return "radio= "+radio;
 	}
+
 }
