@@ -1,2 +1,41 @@
 
+public class Rueda {
 
+	private int radio;
+	private String color;
+	private String material;
+
+	public Rueda (int radio, String color, String material){
+		this.radio=radio;
+		this.color=color;
+		this.material=material;
+	}
+	
+	public String getColor() {
+		return color;
+	}
+	
+	public void setColor(String color) {
+		this.color = color;
+	}
+
+	public String getMaterial() {
+		return material;
+	}
+
+	public void setMaterial(String material) {
+		this.material = material;
+	}
+
+	public int getRadio() {
+
+		return radio;
+	}
+
+	public void setRadio(int radio) {
+		this.radio = radio;
+	}
+	public String toString (){
+		return "radio= "+radio;
+	}
+}
